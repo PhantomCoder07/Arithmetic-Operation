@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int i,a,b,sum,sub,multi,modulus;
+    float divition;
+    for (i=0; ; i++)
+    {
+        printf ("----------Calculate Arithmetic Operations----------\n\n");
+        printf ("Enter two integer: ");
+        scanf ("%d %d",&a,&b);
+        sum=a+b;
+        sub=a-b;
+        multi=a*b;
+        divition=(float)a/b;
+        modulus=a%b;
+        printf ("Results:\n");
+        printf("The sum is: %d\n",sum);
+        printf("The subtraction is: %d\n",sub);
+        printf("The multiplication is: %d\n",multi);
+        printf("The division is: %.2f\n",divition);
+        printf("The modulus is: %d\n",modulus);
+        printf ("\n\n");
+    }
+    return 0;
+}
